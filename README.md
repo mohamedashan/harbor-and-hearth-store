@@ -20,3 +20,7 @@ Open `index.html` directly in a browser, or serve this directory with any static
 ## Repository
 
 This project is designed to be hosted as a static public repository, including GitHub Pages if desired.
+
+## License
+
+Released under the MIT License. See `LICENSE`.
