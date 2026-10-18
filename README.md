@@ -8,6 +8,8 @@ A small, semantic HTML-only ecommerce storefront for thoughtfully made home good
 - `products.html` — product catalogue
 - `product.html` — featured product detail
 - `about.html` — brand story and values
+- `faq.html` — frequently asked questions
+- `shipping-returns.html` — delivery and returns policy
 - `contact.html` — customer support form
 - `checkout.html` — static checkout form
 - `404.html` — not-found page
