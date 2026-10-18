@@ -1,0 +1,1 @@
+Harbor & Hearth is a deliberately simple, HTML-only storefront prototype.
