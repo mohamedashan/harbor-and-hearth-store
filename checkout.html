@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Review your Harbor & Hearth order and provide delivery details.">
+  <title>Checkout | Harbor & Hearth</title>
+</head>
+<body>
+  <header>
+    <p><strong>Harbor & Hearth</strong></p>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a> |
+      <a href="products.html">Shop</a> |
+      <a href="about.html">Our story</a> |
+      <a href="contact.html">Help</a> |
+      <a href="checkout.html" aria-current="page">Cart (0)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Checkout</h1>
+    <p>This simple prototype keeps your order details in one place. No payment is collected on this demo page.</p>
+
+    <section aria-labelledby="order-heading">
+      <h2 id="order-heading">Your order</h2>
+      <table>
+        <caption>Order summary</caption>
+        <thead>
+          <tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Price</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>The Sunday Mug</td><td>1</td><td>$28.00</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th scope="row" colspan="2">Subtotal</th><td>$28.00</td></tr>
+          <tr><th scope="row" colspan="2">Shipping</th><td>$5.00</td></tr>
+          <tr><th scope="row" colspan="2">Total</th><td><strong>$33.00</strong></td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section aria-labelledby="delivery-heading">
+      <h2 id="delivery-heading">Delivery details</h2>
+      <form action="mailto:orders@harborandhearth.example" method="post" enctype="text/plain">
+        <p>
+          <label for="full-name">Full name</label><br>
+          <input id="full-name" name="full-name" type="text" autocomplete="name" required>
+        </p>
+        <p>
+          <label for="address">Street address</label><br>
+          <input id="address" name="address" type="text" autocomplete="street-address" required>
+        </p>
+        <p>
+          <label for="city">City</label><br>
+          <input id="city" name="city" type="text" autocomplete="address-level2" required>
+        </p>
+        <p>
+          <label for="postal-code">Postal code</label><br>
+          <input id="postal-code" name="postal-code" type="text" autocomplete="postal-code" required>
+        </p>
+        <p>
+          <label for="notes">Delivery notes <small>(optional)</small></label><br>
+          <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+        </p>
+        <p><button type="submit">Place request</button></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Harbor & Hearth</strong> — thank you for shopping small.</p>
+    <p><small><a href="contact.html">Need checkout help?</a></small></p>
+  </footer>
+</body>
+</html>
