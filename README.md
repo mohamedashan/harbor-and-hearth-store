@@ -10,6 +10,8 @@ A small, semantic HTML-only ecommerce storefront for thoughtfully made home good
 - `about.html` — brand story and values
 - `contact.html` — customer support form
 - `checkout.html` — static checkout form
+- `404.html` — not-found page
+- `sitemap.xml` and `robots.txt` — static crawl guidance
 
 ## Run locally
 
