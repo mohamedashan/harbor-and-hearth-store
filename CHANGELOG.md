@@ -1,4 +1,11 @@
 # Changelog
+## 2026-11-15
+- Added keyboard skip links, main landmarks, and consistent footer navigation.
+- Improved product discovery with catalogue anchors and richer descriptions.
+- Added accessible quantity, checkout, and support form fields.
+- Added shareable FAQ targets and care-and-repair guidance.
+- Documented the static-site review checklist.
+
 
 ## 2026-10-18
 
