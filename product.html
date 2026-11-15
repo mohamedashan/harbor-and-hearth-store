@@ -41,7 +41,13 @@
 
       <h2>What to expect</h2>
       <p>Each mug is shaped and glazed by hand, so small variations in color and form are part of its character. Please allow 3–5 business days for packing.</p>
-      <p><a href="checkout.html">Add one to the cart</a></p>
+      <form action="checkout.html" method="get">
+        <p>
+          <label for="quantity">Quantity</label><br>
+          <input id="quantity" name="quantity" type="number" min="1" max="10" value="1" inputmode="numeric" required>
+        </p>
+        <p><button type="submit">Add to cart</button></p>
+      </form>
     </article>
   </main>
 
