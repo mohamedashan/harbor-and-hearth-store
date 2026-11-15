@@ -48,8 +48,25 @@
           <input id="email" name="email" type="email" autocomplete="email" required>
         </p>
         <p>
+          <label for="topic">What can we help with?</label><br>
+          <select id="topic" name="topic" required>
+            <option value="">Choose a topic</option>
+            <option value="product">Product question</option>
+            <option value="order">Order or shipping</option>
+            <option value="return">Return or damaged item</option>
+            <option value="other">Something else</option>
+          </select>
+        </p>
+        <p>
           <label for="message">Message</label><br>
           <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+        </p>
+        <p>
+          <label for="reply-preference">Preferred reply</label><br>
+          <select id="reply-preference" name="reply-preference">
+            <option value="email">Email</option>
+            <option value="no-preference">No preference</option>
+          </select>
         </p>
         <p><button type="submit">Send message</button></p>
       </form>
