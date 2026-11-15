@@ -50,6 +50,10 @@
           <input id="full-name" name="full-name" type="text" autocomplete="name" required>
         </p>
         <p>
+          <label for="email">Email address</label><br>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </p>
+        <p>
           <label for="address">Street address</label><br>
           <input id="address" name="address" type="text" autocomplete="street-address" required>
         </p>
@@ -59,7 +63,15 @@
         </p>
         <p>
           <label for="postal-code">Postal code</label><br>
-          <input id="postal-code" name="postal-code" type="text" autocomplete="postal-code" required>
+          <input id="postal-code" name="postal-code" type="text" autocomplete="postal-code" inputmode="numeric" required>
+        </p>
+        <p>
+          <label for="country">Country</label><br>
+          <select id="country" name="country" autocomplete="country-name" required>
+            <option value="">Choose a country</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+          </select>
         </p>
         <p>
           <label for="notes">Delivery notes <small>(optional)</small></label><br>
