@@ -23,3 +23,11 @@ Keep page language clear, use one meaningful `h1` per page, preserve logical hea
 ## Pull requests
 
 Explain the user-facing improvement, keep changes focused, and check that internal links resolve. A pull request should include a short testing note describing how the static pages were reviewed.
+
+## Suggested workflow
+
+1. Open an issue or describe the change clearly before starting larger work.
+2. Create a focused branch from `main` and keep unrelated cleanup out of it.
+3. Run `python3 -m http.server 8000` and review each affected page in a browser.
+4. Use small, descriptive commits so the history explains the contribution.
+5. Open a pull request using the repository template and link the relevant issue.
