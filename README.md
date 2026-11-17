@@ -19,6 +19,8 @@ A small, semantic HTML-only ecommerce storefront for thoughtfully made home good
 
 Open `index.html` directly in a browser, or serve this directory with any static file server. The site intentionally uses no CSS or JavaScript; it relies on semantic HTML, headings, lists, tables, forms, and browser defaults.
 
+For a local server with Python, run `python3 -m http.server 8000` from the repository root and visit `http://localhost:8000`. This mirrors the relative-link behavior used by static hosting more closely than opening files directly.
+
 ## Repository
 
 This project is designed to be hosted as a static public repository, including GitHub Pages if desired.
