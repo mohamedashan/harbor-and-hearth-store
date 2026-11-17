@@ -45,6 +45,8 @@
     <section aria-labelledby="delivery-heading">
       <h2 id="delivery-heading">Delivery details</h2>
       <form action="mailto:orders@harborandhearth.example" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Contact and delivery address</legend>
         <p>
           <label for="full-name">Full name</label><br>
           <input id="full-name" name="full-name" type="text" autocomplete="name" required>
@@ -77,6 +79,7 @@
           <label for="notes">Delivery notes <small>(optional)</small></label><br>
           <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
         </p>
+        </fieldset>
         <p><button type="submit">Place request</button></p>
       </form>
     </section>
