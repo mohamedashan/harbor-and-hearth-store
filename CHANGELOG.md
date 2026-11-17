@@ -1,4 +1,9 @@
 # Changelog
+## 2026-11-17
+- Added local preview and maintenance guidance for contributors.
+- Improved checkout table semantics, delivery fields, and support requests.
+- Added order tracking guidance and clarified shipping availability.
+
 ## 2026-11-15
 - Added keyboard skip links, main landmarks, and consistent footer navigation.
 - Improved product discovery with catalogue anchors and richer descriptions.
